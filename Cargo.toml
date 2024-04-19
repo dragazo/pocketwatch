@@ -1,6 +1,6 @@
 [package]
 name = "pocketwatch"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 authors = ["Devin Jean <emailcruzjean@yahoo.com>"]
@@ -12,3 +12,4 @@ description = "A simple timer CLI"
 [dependencies]
 time = { version = "0.3.36", features = ["local-offset"] }
 clap = { version = "4.5.4", features = ["derive"] }
+web-audio-api = "0.43.0"
